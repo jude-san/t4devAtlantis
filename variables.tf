@@ -45,7 +45,7 @@ variable "public_ip" {
 variable "instance_count" {
   description = "Number of instances to provision."
   type        = number
-  default     = 25
+  default     = 3
 }
 
 ## only in eu-north-1 region specify diffrent ami for separate region
@@ -63,8 +63,8 @@ variable "instance_type" {
 
 variable "lambda_zip_file" {
   description = "lambda file"
-  type = string
-  default = "/dir/<file-name>"
+  type        = string
+  default     = "/dir/<file-name>"
 }
 
 # IAM Variables

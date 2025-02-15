@@ -6,7 +6,8 @@
 .terraform.lock.hcl       # Terraform lock file
 terraform.tfstate.backup
 .terraform.lock.*
-./terraform/*               # Directory for storing Terraform plugins and modules
+.terraform
+
 aws-terraform-instances/.terraform/
 
 
