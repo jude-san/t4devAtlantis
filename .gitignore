@@ -1,0 +1,40 @@
+# Terraform
+*.tfstate                 # Local Terraform state
+*.tfstate.backup          # Backup state files
+*.tfvars                  # Terraform variable files
+*.tfplan                  # Terraform plan files
+.terraform.lock.hcl       # Terraform lock file
+terraform.tfstate.backup
+.terraform.lock.*
+./terraform/*               # Directory for storing Terraform plugins and modules
+aws-terraform-instances/.terraform/
+
+
+
+# Ansible
+group_vars/*.yml          # Group variables
+host_vars/*.yml           # Host variables
+vault.yml                 # Vault files (if not encrypted)
+inventory                 # Static inventory file
+*.log                     # Log files
+
+# VSCode
+.vscode/                  # Workspace settings
+
+# Python
+__pycache__/              # Byte-compiled files
+.env                      # Virtual environment files
+*.venv/                   # Virtual environments
+*/venv/                   # Virtual environments
+.DS_Store                 # macOS files
+.idea/                    # PyCharm settings
+
+# All keys
+*/*.key                     # Key files
+*/*.pem                     # Private keys
+
+./jude_tutrials
+
+### Jude 
+./Week2_assign_terraform
+./assignment
