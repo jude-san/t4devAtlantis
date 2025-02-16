@@ -45,7 +45,7 @@ variable "public_ip" {
 variable "instance_count" {
   description = "Number of instances to provision."
   type        = number
-  default     = 3
+  default     = 5
 }
 
 ## only in eu-north-1 region specify diffrent ami for separate region
