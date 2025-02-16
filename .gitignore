@@ -4,10 +4,10 @@
 *.tfvars                  # Terraform variable files
 *.tfplan                  # Terraform plan files
 .terraform.lock.hcl       # Terraform lock file
-terraform.tfstate.backup
+# terraform.tfstate.backup
 .terraform.lock.*
-.terraform
-
+# .terraform
+services-tf
 aws-terraform-instances/.terraform/
 
 
