@@ -9,7 +9,7 @@
 .terraform
 services-tf
 aws-terraform-instances/.terraform/
-terraform.*
+terraform.tfstate
 
 # Ansible
 group_vars/*.yml          # Group variables
