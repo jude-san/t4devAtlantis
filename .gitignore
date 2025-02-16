@@ -9,7 +9,7 @@
 .terraform
 services-tf
 aws-terraform-instances/.terraform/
-
+terraform.tfstate
 
 
 # Ansible
